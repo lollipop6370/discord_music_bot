@@ -4,6 +4,10 @@ const ytdl = require("ytdl-core");
 const streamOptions = {seek: 0, volume: 1};
 const bot = new Discord.Client();
 
+const http = require('http');
+const port = process.env.PORT || 3000;
+http.createServer().listen(port);
+
 const prefix = '?';
 
 var list=[];
