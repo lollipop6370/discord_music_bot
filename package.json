@@ -1,0 +1,20 @@
+{
+  "name": "b1",
+  "version": "1.0.0",
+  "description": "npm install ffmpeg-binaries",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "ffmpeg-binaries": "^4.0.0",
+    "nodemon": "^1.18.11",
+    "opusscript": "^0.0.6",
+    "ytdl-core": "^0.29.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
